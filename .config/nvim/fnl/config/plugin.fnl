@@ -33,8 +33,21 @@
   :Olical/aniseed {:branch :develop}
 
   ;; theme
-  :projekt0n/github-nvim-theme {:mod :theme}
+
+  ;; Development related icons
   :kyazdani42/nvim-web-devicons {}
+
+  ;; GitHub themes - dark and light variations configured in plugins/theme.fnl
+  :projekt0n/github-nvim-theme {:mod :theme}
+
+  ;; gruvbox theme - to set up plugin/theme.fnl before this works
+  ;; :morhetz/gruvbox {:mod :theme}
+  ;; Gruvbox contrast options to try: :soft :medium :hard
+  ;; {:background :light :gruvbox-contrast-light :soft}
+  ;; :morhetz/gruvbox {:mod :theme}
+
+  ;; Light theme - may require plugin/theme.fnl or smilar to work
+  ;; :ingram1107/vim-zhi {}
 
   ;; status line
   :nvim-lualine/lualine.nvim {:mod :lualine}
